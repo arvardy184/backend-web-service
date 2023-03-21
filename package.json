@@ -1,0 +1,36 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "backend web service",
+  "main": "index.js",
+  "author": "Arvardy",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvardy184/bakend-web-service.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "node",
+    "js",
+    "express",
+    "js",
+    "mysql"
+  ],
+  "bugs": {
+    "url": "https://github.com/arvardy184/bakend-web-service/issues"
+  },
+  "homepage": "https://github.com/arvardy184/bakend-web-service#readme"
+}
